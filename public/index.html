@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta name=”description” content="My name is Yuki Osada!">
+  <meta name="keyword" content="yukiosada, yuki, osada, yuuki, mypage, introduction">
+  <meta property="og:description" content="My name is Yuki Osada!">
+  <meta property="og:title" content="Yuki Osada 長田悠生">
+  <meta property="og:image:width" content="1500">
+  <meta property="og:image" content="https://raw.githubusercontent.com/Myxogastria0808/HOME/main/osada.webp">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yukiosada.work/">
+
+  <meta charset="UTF-8">
+  <meta name="theme-color" content="#66cdaa">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">  
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script type="text/javascript" src="./loading.js"></script>
+  <script type="text/javascript" src="./leap_button.js"></script>
+  <link rel="shortcut icon" href="./dino.ico">
+
+  <!---->
+  <meta name=”description” content="My name is Yuuki Osada. Welcome to my home page!">
+  <meta name="keyword" content="Osada, Yuuki, YuukiOsada, programming, R, simulation, introduction">
+  <meta name="google-site-verification" content="rBxTrzCZcTYQZCeJ_mc9scsN-ZoR5nrCGucjL_tUc_A" />
+  <title>YUUKI OSADA</title>
+</head>
+<body>
+        <!-------------------------shutter animation---------------------------------->
+        <div id="loader" class="shutter_1">
+          <div id="cloud"></div>
+          <div id="eclipse"></div>
+        </div>
+        <!-------------------------Pageleap animation---------------------------------->
+        <div id="page_top">
+          <a id="leap_a" href="#">
+              <div class="fluid"></div>
+          </a>
+        </div>
+
+<div class="background-img">
+  <div class="img_div">
+    <img id="img_PC" src="./Hello_World_PC.webp">
+    <img id="img_mobile" src="./Hello_World.webp">
+  </div>
+  <a href="#slide-area" class="scroll-a scroll-ani">
+    <span class="scroll-span-content scroll-ani">Scroll</span>
+    <span class="scroll-span span-1 scroll-ani"></span>
+    <span class="scroll-span span-2 scroll-ani"></span>
+    <span class="scroll-span span-3 scroll-ani"></span>
+  </a>
+</div>
+
+<div class="area js-area">
+  <div class="wrap" id="slide-area">
+     <div class="item item01 item_story_slide js-item js-waku01">
+        <span class="top-span">
+          About Me
+          <br>
+          <!------------------icons------------------------->
+        <nav class="menu">
+          <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
+          <label class="menu-open-button " for="menu-open">
+            <span class="hamburger hamburger-1"></span>
+            <span class="hamburger hamburger-2"></span>
+            <span class="hamburger hamburger-3"></span>
+          </label>
+          <a href="https://twitter.com/yuki_osada0808" target="_blank"  rel="noopener noreferrer" class="menu-item"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.facebook.com/Hello.0808" target="_blank"  rel="noopener noreferrer" class="menu-item"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="https://github.com/Myxogastria0808" target="_blank"  rel="noopener noreferrer" class="menu-item"><i class="fa-brands fa-github"></i></a>
+          <a href="https://www.youtube.com/channel/UC09Y-MUJbYKQKoFYaenVyhw" target="_blank"  rel="noopener noreferrer" class="menu-item"><i class="fa-brands fa-youtube"></i></a>
+          <a href="https://www.instagram.com/hello.the.universe/" target="_blank"  rel="noopener noreferrer" class="menu-item"><i class="fa-brands fa-instagram"></i></a>
+        </nav>
+        
+        
+        
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="icon-menu">
+            <defs class="icon-menu">
+              <filter id="shadowed-goo" class="icon-menu">
+                  <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" class=""/>
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" class="icon-menu"/>
+                  <feGaussianBlur in="goo" stdDeviation="3" result="shadow" class="icon-menu"/>
+                  <feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" class="icon-menu"/>
+                  <feOffset in="shadow" dx="1" dy="1" result="shadow" class="icon-menu"/>
+                  <feBlend in2="shadow" in="goo" result="goo" class="icon-menu"/>
+                  <feBlend in2="goo" in="SourceGraphic" result="mix" class="icon-menu"/>
+              </filter>
+              <filter id="goo" class="icon-menu">
+                  <feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" class="icon-menu"/>
+                  <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" class="icon-menu"/>
+                  <feBlend in2="goo" in="SourceGraphic" result="mix" class="icon-menu"/>
+              </filter>
+            </defs>
+        </svg>
+        <!-------------------------icons-------------------------->
+        </span>
+     </div>
+     <!-- <div class="item item02 js-item js-waku02"></div> -->
+     <div class="item item02 item_story_card js-item js-item04"><span>
+        My Name
+        <br>
+        YUUKI OSADA
+     </span></div>
+     <div class="item item03 item_story_card js-item js-item05"><span>
+        Address
+        <br>
+        Hyogo, Japan
+     </span></div>
+     <div class="item item04 item_story_card js-item js-item07"><span>
+        Skill
+        <br>
+        <i class="fa-brands fa-r-project fa-2x"></i>
+        <i class="fa-brands fa-html5 fa-2x"></i>
+        <i class="fa-brands fa-css3-alt fa-2x"></i>
+     </span></div>
+     <div class="item item05 item_story_card js-item js-item08"><span>
+      Learning
+      <br>
+      <i class="fa-brands fa-python fa-2x"></i>
+      <i class="fa-brands fa-golang fa-2x"></i>
+      <i class="fa-brands fa-js fa-2x"></i>
+     </span></div>
+     <div class="item item06 item_story_card js-item js-item06"><span>
+        Contact
+        <br>
+        r.rstudio.c@gmail.com
+     </span></div>
+  </div>
+</div>
+
+<h1 class="h1">Topic News</h1>
+<h2 class="h2">BSSO PV</h2>
+<div class="video">
+  <div class="youtube">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/n4zT5GOVXco" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+</div>
+<h2 class="h2">PCA Application</h2>
+<h2 class="h2">Click Below The Logo!</h2>
+<a href="https://myxogastria0808.github.io/PCA_App/" target="_blank">
+  <div id="img_div">
+    <img id="Outline_img" src="./shiny_PCA.webp">
+  </div>
+</a>
+
+<div class="timeline-container" id="timeline-1">
+  <div class="timeline-header">
+    <h2 class="timeline-header__title">My Creation</h2>
+    <h3 class="timeline-header__subtitle">Development Progress</h3>
+  </div>
+  <div class="timeline">
+
+    <div class="timeline-item" data-text="Mashiro Nagino">
+      <a href="https://mashirono-oyatsu.web.app/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./mashiro_nagino.webp"/>
+        <h2 class="timeline__content-title">Mashiro Nagino</h2>
+        <p class="timeline__content-desc">
+          She is a Japanese VTuber. Her name is Mashiro Namgino. I created a her fan site. 
+        </p>
+      </div>
+      </a>
+    </div>
+
+    <div class="timeline-item" data-text="BSSO">
+      <a href="https://myxogastria0808.github.io/BSSO/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./BSSO.webp"/>
+        <h2 class="timeline__content-title">BSSO</h2>
+        <p class="timeline__content-desc">We created this system to provide a fluid simulation experience for the general public. This system is my completely original system.</p>
+      </div>
+      </a>
+    </div>
+    <div class="timeline-item" data-text="PCA">
+      <a href="https://myxogastria0808.github.io/AboutPCA/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./PCA.webp"/>
+        <h2 class="timeline__content-title">PCA</h2>
+        <p class="timeline__content-desc">
+          I developed a framework of PCA (R programming language). 
+          One of the most wonderful factors of it is the function to compress multidimensional vectors into three dimensions easily. 
+        </p>
+      </div>
+      </a>
+    </div>
+    <div class="timeline-item" data-text="PCA×Shiny">
+      <a href="https://pcaplot.shinyapps.io/irisPCA/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./shiny.webp"/>
+        <h2 class="timeline__content-title">PCA×Shiny</h2>
+        <p class="timeline__content-desc">
+          I have developed a Shiny application. This application is samples of PCA graphs.
+          You can change some elements of the graphs. When you want to use this analysis method, see the website about PCA above.
+        </p>
+      </div>
+      </a>
+    </div>
+    <!--Rの教科書をネクパブに上げたのち、スクショをして画像を載せる(.webp)。そして、リンクも埋める-->
+  <div class="timeline-item" data-text="Beginner's Book of R">
+    <a href="https://myxogastria0808.github.io/R-book/" target="_blank">
+    <div class="timeline__content"><img class="timeline__img" src="./R_text_book.webp"/>
+      <h2 class="timeline__content-title">Beginner's Book of R</h2>
+      <p class="timeline__content-desc">
+        I wrote a beginner's book of R programming language and taught my classmate about R and programming using this. Then, I published it by NextPublishing Authors Press which is one of Amazon's service.
+      </p>
+    </div>
+    </a>
+  </div>
+  <div class="timeline-item" data-text="data.library">
+    <a href="https://myxogastria0808.github.io/About-data.library/" target="_blank">
+    <div class="timeline__content"><img class="timeline__img" src="./data_library.webp"/>
+      <h2 class="timeline__content-title">data.library</h2>
+      <p class="timeline__content-desc">
+          The R programming language originally provides several data sets. However, there is no package that categorizes the characteristics of these data sets. Therefore, I categorized datasets and created a package that can search datasets by category as a function of package.
+      </p>
+    </div>
+    </a>
+  </div>
+  <div class="timeline-item" data-text="CG Animation">
+    <a href="https://myxogastria0808.github.io/CG-Animation/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./CG-Animation.webp"/>
+        <h2 class="timeline__content-title">CG Animation</h2>
+        <p class="timeline__content-desc">
+          I created CG animation using blender and compiled short movies. These movies were played at my high school's cultural festival! We invite you to watch these videos.
+        </p>
+      </div>
+    </a>
+  </div>
+  <div class="timeline-item" data-text="Ono High School">
+    <a href="https://myxogastria0808.github.io/OHS/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./小野高校.webp"/>
+        <h2 class="timeline__content-title">Ono High School</h2>
+        <p class="timeline__content-desc">
+          I developed my high school's website with my friend! I created it with the primary goal of improving usability. It is in the process of being developed.
+        </p>
+      </div>
+    </a>
+  </div>
+  <div class="timeline-item" data-text="Web Update System">
+    <a href="https://myxogastria0808.github.io/AboutWebsiteUpdateSystem/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./web.webp"/>
+        <h2 class="timeline__content-title">Web Update System</h2>
+        <p class="timeline__content-desc">
+          I have developed a system that allows you to easily update your website. This system works around a text editor called Atom developed by GitHub. The system was created with the assumption that it would be used with GitHub's website distribution service called GitHub Pages.
+        </p>
+      </div>
+    </a>
+  </div>
+  <div class="timeline-item" data-text="QGIS">
+    <a href="https://myxogastria0808.github.io/QGIS/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./QGIS.webp"/>
+        <h2 class="timeline__content-title">QGIS</h2>
+        <p class="timeline__content-desc">
+          I developed a GIS map of the flood damage of July, 2008. I use QGIS and QGIS2Web. QGIS is one of the FOSS4G stands for Free Open-Source Software for GeoSpatial. QGIS2Web is a plug-in of QGIS to release the Internet. 
+        </p>
+      </div>
+    </a>
+  </div>
+  <div class="timeline-item" data-text="Code Hack">
+    <a href="https://myxogastria0808.github.io/CodeHack/" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./CodeHack.webp"/>
+          <h2 class="timeline__content-title">Code Hack</h2>
+          <p class="timeline__content-desc">
+              Code Hack is a term I coined in an attempt to programmatically express little ideas that make life a little more convenient. The following is a list of code hack ideas. Make full use of them! 
+          </p>
+        </div>
+    </a>
+  </div>
+  <div class="timeline-item" data-text="The Quest for the 4D">
+      <a href="https://myxogastria0808.github.io/The-Quest-for-the-4-Dimensions/" target="_blank">
+          <div class="timeline__content"><img class="timeline__img" src="./4D.webp"/>
+              <h2 class="timeline__content-title">The Quest for the 4D</h2>
+              <p class="timeline__content-desc">
+                  What do you imagine the existence of 4 dimensions world？ Living in 3 dimensions world makes it difficult to picture the world. In fact, we can image the world. 
+              </p>
+          </div>
+      </a>
+  </div>
+  <div class="timeline-item" data-text="Now On Sale">
+    <a href="https://www.amazon.co.jp/R%E8%A8%80%E8%AA%9E%E3%81%AE%E3%82%B9%E3%82%B9%E3%83%A1-%E9%95%B7%E7%94%B0%E6%82%A0%E7%94%9F/dp/B0BCD5HZKJ/ref=sr_1_13?crid=GMXIFZ4JEH75&keywords=r%E8%A8%80%E8%AA%9E&qid=1662207307&sprefix=%2Caps%2C579&sr=8-13" target="_blank">
+      <div class="timeline__content"><img class="timeline__img" src="./Amazon.webp"/>
+        <h2 class="timeline__content-title amazon">Now On Sale</h2>
+        <p class="timeline__content-desc">
+          "R programming language recommendation" is now on sale on Amazon! The price is 1100 yen (tax included). Please purchase.
+        </p>
+      </div>
+    </a>
+  </div>
+  <div class="timeline-item" data-text="Coming Soon...">
+    <div class="timeline__content"><img class="timeline__img" src="./comingsoon.gif"/>
+      <h2 class="timeline__content-title">Coming Soon...</h2>
+      <p class="timeline__content-desc">
+        &nbsp;&nbsp;&nbsp;&nbsp;--One spring day in my first year of high school, when the cherry blossoms were raining, I met a boy who led me into the world of computers. I have explored the world of computers! --"Hello world"-- The pleasant sound of the word led me to venture into the interesting and unique deep forest of programming. 
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;I have been experienced many things in the forest. However, my jurney of this forest has just begun.
+      </p>
+    </div>
+  </div>
+  </div>
+</div>
+
+<div class="demo-footer">
+  Ⓒ2022 Yuuki Osada
+</div>
+<script  src="./script.js"></script>
+<script  src="./scroll-z.js"></script>
+</body>
+</html>
